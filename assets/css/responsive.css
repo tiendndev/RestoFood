@@ -63,4 +63,8 @@
         font-size: 2rem;
         background: #eee;
     }
+
+    .order form .inputBox .input {
+        width: 109%;
+    }
 }
