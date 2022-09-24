@@ -234,6 +234,8 @@ header .icons #menu-bars {
 .dishes .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    /* Tự động điều chỉnh kích thước ô fit với màn hình khi kéo màn hình 
+    rộng hơn kích thướt grid, kích thướt nhỏ nhất của 1 ô là 300px */
     gap: 1.5rem;
 }
 
